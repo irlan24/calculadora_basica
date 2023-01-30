@@ -22,32 +22,32 @@
                 <tbody>
                     <tr>
                         <td><button onclick="clean()" class="destaque">C</button></td>
-                        <td><button onclick="operador()" class="destaque">/</button></td>
-                        <td><button class="destaque">*</button></td>
-                        <td><button onclick="del()" class="destaque">X</button></td>
+                        <td><button onclick="operador('/')" class="destaque">/</button></td>
+                        <td><button onclick="operador('*')" class="destaque">*</button></td>
+                        <td><button onclick="delet()" class="destaque">X</button></td>
                     </tr>
                     <tr>
                         <td><button onclick="numb(7)" class="destaque">7</button></td>
                         <td><button onclick="numb(8)" class="destaque">8</button></td>
                         <td><button onclick="numb(9)" class="destaque">9</button></td>
-                        <td><button class="destaque">-</button></td>
+                        <td><button onclick="operador('-')" class="destaque">-</button></td>
                     </tr>
                     <tr>
                         <td><button onclick="numb(4)" class="destaque">4</button></td>
                         <td><button onclick="numb(5)" class="destaque">5</button></td>
                         <td><button onclick="numb(6)" class="destaque">6</button></td>
-                        <td><button class="destaque">+</button></td>
+                        <td><button onclick="operador('+')" class="destaque">+</button></td>
                     </tr>
                     <tr>
                         <td><button onclick="numb(1)" class="destaque">1</button></td>
                         <td><button onclick="numb(2)" class="destaque">2</button></td>
                         <td><button onclick="numb(3)" class="destaque">3</button></td>
-                        <td rowspan="2"><button class="destaque" style="height: 100px;">=</button></td>
+                        <td rowspan="2"><button onclick="res()" class="destaque" style="height: 100px;">=</button></td>
                     </tr>
                     <tr>
             
-                        <td colspan="2"><button onclick="numb(0)" class="destaque" style="width: 106px;" >0</button></td>
-                        <td><button class="destaque" style="font-weight: bold;">.</button></td>
+                        <td colspan="2"><button onclick="numb(0)" class="destaque" style="width: 110px;" >0</button></td>
+                        <td><button onclick="operador('.')" class="destaque" style="font-weight: bold;">.</button></td>
                     </tr>
                 </tbody>
             </table>
