@@ -10,6 +10,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-image: url(imagens/background-4.jpg);
+    background-position: center center;
+}
 
 
 
@@ -20,9 +24,15 @@ header, section, footer{
     align-items: center;
     margin: 10px;
 }
+header h1{
+    /*color: #526d70;*/
+    color: #526d70d2;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .container{
-    background-color: #526D70;
+    background-color: #526d70d2;
     width: 800px;
     height: 500px;
     border-radius: 9px;
@@ -35,13 +45,20 @@ header, section, footer{
 
 .visor{
     width: 250px;
-    height: 50px;
+    height: 53px;
     text-align: right;
     border: 1px solid  #6ce9fa;
     font-family: 'calculator';
     font-size: 1.5em;
-    color: rgba(0, 0, 255, 0.651);
+    color: #0000ffa6;
+    overflow: auto;
     
+}
+::-webkit-scrollbar{
+    background-color: #0000ffa6;
+    height: 6px;
+    width: 3px;
+    border-radius: 10px;
 }
 
 table{
@@ -71,7 +88,7 @@ button{
     background-color: #6ce9fa;
     border-radius: 3px;
     border: none;
-    color: rgba(0, 0, 255, 0.726);
+    color: #0000ffb9;
     min-width: 40px;
     min-height: 40px;  
     padding: 5px;  
@@ -84,3 +101,23 @@ button:hover{
     color: white;
 }
 
+footer{
+    background-color: #526d70d2;
+    margin-top: 20px;
+    height: 38px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.1em;
+}
+footer a{
+    text-decoration: none;
+    color: #6ce9fa;
+    margin-left: 3px;
+    
+}
+footer a:hover{
+    cursor: pointer;
+    color: #8c00ff;
+    text-decoration: underline;
+}
