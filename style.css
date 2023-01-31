@@ -15,6 +15,24 @@ body{
     background-position: center center;
     height: 95vh;
 }
+nav{
+    display: flex;
+    background-color: #526d70d2;
+    width: 100vw;
+    height: 25px;
+    padding: 5px;
+}
+nav button{
+    width: 30px;
+    height: 20px;  
+    background-color: #8c00ff;
+    margin-right: 10px;  
+}
+
+#tema-1{
+    background-color: #6ce9fac0;
+}
+
 
 
 
@@ -35,7 +53,7 @@ header h1{
 .container{
     background-color: #526d70d2;
     width: 800px;
-    height: 500px;
+    height: 450px;
     border-radius: 9px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.438);
     display: flex;
@@ -65,7 +83,7 @@ header h1{
 table{
     font-family: 'calculator';
     font-size: 1.5em;
-    color: rgba(0, 0, 255, 0.651);
+    color: #0000ffa6;
     text-align: center;
     min-width: 250px;
     min-height: 300px;
@@ -83,7 +101,7 @@ td{
     width: 50px;
 }
 
-button{
+.container button{
     font-family: 'calculator';
     font-size: 1.2em;
     background-color: #6ce9fa;
@@ -96,7 +114,7 @@ button{
     margin: 3px;
 }
 
-button:hover{
+.container button:hover{
     cursor: pointer;
     background-color: #526D70;
     color: white;
