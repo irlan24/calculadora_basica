@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <button id="tema-1"></button>
-        <button id="tema-2"></button>
+    <nav class="tema-style">
+        <button onclick="tema1()" id="tema-1"></button>
+        <button onclick="tema2()" id="tema-2"></button>
     </nav>
     <header><h1>Calculadora pessoal</h1></header>
 
@@ -25,8 +25,8 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><button onclick="clean()" class="destaque" style="font-weight: bold;" >C</button></td>
-                        <td><button onclick="operador('/')" class="destaque">/</button></td>
+                        <td><button onclick="clean()" class="destaque" name="tema" style="font-weight: bold;" >C</button></td>
+                        <td><button onclick="operador('/')" class="destaque" name="tema">/</button></td>
                         <td><button onclick="operador('*')" class="destaque">*</button></td>
                         <td><button onclick="delet()" class="destaque"><img src="imagens/icon.png" alt=""></button></td>
                     </tr>
@@ -58,7 +58,7 @@
             
         </div>
     </section>
-<footer>Projeto elaborado por <a target="_blank" href="https://github.com/irlan24">Irlan Nonato</a></footer>
+<footer class="tema-style">Projeto elaborado por <a target="_blank" href="https://github.com/irlan24">Irlan Nonato</a></footer>
 
 <script src="script.js"></script>
 </body>
