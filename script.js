@@ -30,7 +30,9 @@ function res(){
     let footer = document.querySelector('footer')
     let h1 = document.querySelector('h1')
     let tabela = document.querySelector('table')
+    let botao = document.querySelectorAll('.destaque')
     
+    console.log(botao)
 
 function tema2(){
     
@@ -39,6 +41,10 @@ function tema2(){
     footer.style.backgroundColor = "#206343d2"
     h1.style.color = '#206343d2'
     tabela.style.backgroundColor = '#4AE89Bc0'
+    botao.forEach((itens, i)=>{
+        botao[i].style.backgroundColor = '#05F57F'
+        botao[i].style.color = '#206A54'
+    })
     
 }
 function tema1(){
@@ -47,4 +53,11 @@ function tema1(){
     footer.style.backgroundColor = "#526d70d2"
     h1.style.color = '#526d70d2'
     tabela.style.backgroundColor = '#6ce9fac0'
+
+    botao.forEach((itens, i)=>{
+        botao[i].style.backgroundColor = '#6ce9fa'
+        botao[i].style.color = '#0000ffb9'
+
+    })
+    
 }
