@@ -78,8 +78,8 @@ header h1{
     
 }
 ::-webkit-scrollbar{
-    background-color: #0000ffa6;
-    height: 6px;
+    background-color: #333;
+    height: 4px;
     width: 3px;
     border-radius: 10px;
 }
